@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+
+
+	<script type="text/javascript" src="https://cdn.rawgit.com/stevenschobert/instafeed.js/master/instafeed.min.js"></script>
+
+
+
+</head>
+<body>
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: '7c065a1a977940cab4843ce36a208d4e'
+    });
+    feed.run();
+
+    console.log(feed)
+</script>
+      
+</body>
+</html>
